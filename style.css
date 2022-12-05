@@ -56,3 +56,8 @@ button:hover {
 #zarb {
     line-height: 55px;
 }
+
+#calc {
+    width: 100%;
+    height: 55px;
+}
