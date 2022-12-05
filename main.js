@@ -16,3 +16,9 @@ function print(event) {
     }
     return displayBox.value += x;
 }
+
+calc.addEventListener("click", calcs);
+function calcs() {
+    let result = displayBox.value;
+    displayBox.value = eval(result);
+}
