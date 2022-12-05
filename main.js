@@ -22,3 +22,8 @@ function calcs() {
     let result = displayBox.value;
     displayBox.value = eval(result);
 }
+
+clearAll.addEventListener("click", allclear);
+function allclear() {
+    displayBox.value = 0;
+}
