@@ -52,3 +52,7 @@ button {
 button:hover {
     cursor: pointer;
 }
+
+#zarb {
+    line-height: 55px;
+}
